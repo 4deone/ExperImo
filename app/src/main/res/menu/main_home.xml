@@ -12,6 +12,7 @@
         android:title="Estimer" />
     <item android:id="@+id/menu_action_profile"
         android:icon="@drawable/ic_profile"
+        android:visible="false"
         app:showAsAction="always"
         android:title="Profile" />
     <item android:id="@+id/menu_action_connexion"
