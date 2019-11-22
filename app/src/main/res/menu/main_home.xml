@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_action_search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search"
+        android:title="Search" />
+    <item android:id="@+id/menu_action_estimation"
+        android:icon="@drawable/ic_estimation"
+        android:visible="false"
+        android:title="Estimer" />
+    <item android:id="@+id/menu_action_connexion"
+        android:icon="@drawable/ic_connexion"
+        android:title="Connexion" />
+    <item android:id="@+id/menu_action_create_account"
+        android:icon="@drawable/ic_register"
+        android:title="Register" />
+    <item android:id="@+id/menu_action_logout"
+        android:icon="@drawable/ic_logout"
+        android:visible="false"
+        android:title="Deconnexion" />
+
+</menu>
